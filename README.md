@@ -1,6 +1,6 @@
 # Awesome-Enterprise-Service-Management-ESM
 
-# Top Enterprise Service Management (ESM) Ecosystem
+## Top Enterprise Service Management (ESM) Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Cross-Department Workflows, Shared Service Portals & Self-Hosted ITSM Platforms*  
