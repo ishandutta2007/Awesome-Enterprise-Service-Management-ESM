@@ -1,73 +1,151 @@
-# Awesome-Enterprise-Service-Management-ESM
+# Awesome-Enterprise-Service-Management-ESM 🚀
 
-## Top Enterprise Service Management (ESM) Ecosystem
+<div align="center">
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Cross-Department Workflows, Shared Service Portals & Self-Hosted ITSM Platforms*  
-**Last updated: March 2026**
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Enterprise Ready](https://img.shields.io/badge/Enterprise-Ready-blue.svg)](https://github.com/ishandutta2007/Awesome-Enterprise-Service-Management-ESM)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Service Management (ESM)**. These tools extend IT service management practices beyond IT—bringing HR, Finance, Facilities, Legal, and other business teams onto a shared service platform with unified request intake, automated workflows, and cross-department visibility [citation:7][citation:10].
+<br/><br/>
 
-**Examples** include ServiceNow, Jira Service Management, Freshservice, BMC Helix, SysAid, TOPdesk, TeamDynamix, and open-source alternatives like ITSM (heidsoft) and OTRS (the category leaders).
+<a href="https://github.com/ishandutta2007/Awesome-Enterprise-Service-Management-ESM">
+  <img src="assets/banner.svg" alt="Awesome Enterprise Service Management (ESM) Ecosystem Banner" width="100%" />
+</a>
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted ESM, open-source ITIL service management, and community-driven cross-department workflow platforms—ideal for organizations seeking data sovereignty and avoiding per-agent or per-requester SaaS pricing. The open-source landscape is genuinely thin for **full ESM** (cross-department service catalogs with AI and BPMN orchestration), but functional for **ITIL-aligned ITSM foundations**: **ITSM (heidsoft)** provides an AI-native Apache-2.0 platform covering tickets, CMDB, and BPMN [citation:11], while **OTRS** remains the battle-tested open-source ticket management standard.
+<p align="center">
+  <b>A curated catalog of top SaaS platforms and open-source GitHub projects powering Enterprise Service Management (ESM), IT Service Management (ITSM), self-hosted service desks, CMDB, and cross-department workflows.</b>
+</p>
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
-|---------|-------------|--------------------------|--------------------------|
-| **[ServiceNow](https://www.servicenow.com/)** | **The enterprise ESM benchmark.** Over 85% of the Fortune 500 runs ServiceNow ITSM, with native AI built into the platform foundation rather than bolted on. **Enterprise Service Management** extends ITSM workflows to HR, Finance, Legal, and Facilities. **Flow by ServiceNow** is a conversational AI-native service desk for organizations of any size with no implementation required. Unified data model connects incidents, assets, and knowledge across departments. | Starts at **~$70 - $100/fulfiller/month** (Foundation tier; enterprise contract) | **Free Personal Developer Instance (PDI)**: 1 instance with full admin rights; hibernates after 10 days of inactivity, reclaimed if left inactive |
-| **[Jira Service Management](https://www.atlassian.com/software/jira/service-management)** | **The most accessible enterprise ESM for Atlassian shops.** Any business team—HR, Marketing, Legal, Finance, Facilities—can create its own service portal with drag-and-drop workflow templates. **Service Collection** bundles JSM with Customer Service Management, Assets, and Rovo AI agents. **Delegated permissions** let project owners administer their own service desks while IT retains governance visibility. 5,000+ Marketplace integrations. | **$0/month** (Free Plan); Standard starts at **$22.05/agent/month** (billed monthly) or **$20/agent/month** (billed annually) | **Free plan forever**: up to 3 agents, unlimited customers, 2 GB file storage; **7 to 14-day free trial** for Standard and Premium tiers |
-| **[Freshservice](https://www.freshworks.com/freshservice/business-teams/esm/)** | **AI-powered ESM with secure segmented workspaces.** Manage a multi-department service desk on a single Freshservice instance with **complete data segregation, privacy, and administrative autonomy**—HR data stays isolated from IT data while maintaining enterprise-wide visibility. **Freddy AI Agent** resolves routine requests before they reach agents, auto-generates knowledge articles from past tickets, and provides conversational request intake. | Starter starts at **$19/agent/month** (billed annually) or **$29/agent/month** (billed monthly) | **14-day free trial** with full feature access (no credit card required); unlimited free end-users/requesters |
-| **[BMC Helix ESM](https://www.bmc.com/)** | **AI-powered automation across IT and non-IT lines of business.** Pre-built workflows for HR Service Management (employee onboarding), Workplace Service Management (facilities), Security Incident Management, and Business Workflows on a no-code/low-code platform. **BMC HelixGPT** applies AI agents to request fulfillment, knowledge management, and change risk evaluation. | Starts at **~$114 - $115/named agent/month** (3-seat minimum; annual enterprise agreement) | **30-day proof-of-concept / evaluation trial** via sales authorization; trial environment purged upon conclusion |
-| **[SysAid](https://www.sysaid.com/)** | **AI-powered service for all teams with zero-trust data segregation.** Every department—IT, HR, Finance, Facilities, Legal—gets its own **secure service space** with separate data pools, knowledge bases, and AI guardrails to minimize hallucinations. **Cross-team ticket routing** with one-click handoffs while keeping confidential data isolated. **Unlimited AI** across departments with department-specific workflows. | Professional plan starts at **$89/agent/month** (billed annually) | **14-day free trial** with full platform capabilities (no credit card required); includes core AI Copilot features |
-| **[TOPdesk](https://www.topdesk.com/)** | **Ready-to-use ESM platform with fast time-to-value.** Based on ITIL and 30 years of experience—works right out of the box with forms, fields, and workflows adjustable without developers. **Most customers go live within 3 months, some in as little as 3 weeks**. 100+ integrations, SOC 2 certified, 99.9% average uptime. | Essential edition starts at **$76/operator/month** (billed annually) | **30-day free trial** with full operator and self-service access (no credit card required); unlimited free end-users |
-| **[TeamDynamix](https://www.teamdynamix.com/)** | **ESM focused on project management and service delivery convergence.** Research shows 34% of organizations use ESM for better project management and prioritization, 42% for improved cross-business collaboration, and 46% for simplified workflows. Positioned for higher education and mid-market organizations. | Starts at **~$400 - $450/technician/year** (~$33 - $38/technician/month; annual institutional agreement) | **Guided live demo and sales-scoped PoC sandbox** (no self-serve free trial); unlimited client/requester portal users |
-| **[HaloITSM](https://haloitsm.com/)** | **Enterprise-wide service management with a fresh, dynamic interface.** RSPB case study: consolidated asset management, IT stock, service catalogues, and call-logging into a single system used by Digital Technology, HR, Finance, and Facilities. **Cross-team ticket passing** with visibility of workload and multi-team solutions. | Starts at **$99/agent/month** (1–24 agents, billed annually; all features included) | **30-day free trial** with full access to all ITIL modules and AI features (no credit card required); unlimited free end-users |
-| **[InvGate Service Management](https://invgate.com/)** | **No-code ITSM with configurable help desks, levels, and escalation paths.** Assignment methods: Round Robin, Workload, Free, or Manual. **Virtual Service Agent** for conversational request creation across Teams and WhatsApp. **AI-powered SLA risk detection** identifies requests likely to breach. | Starter plan starts at **$1,499/year** (~$125/month for up to 5 agents, or ~$25/agent/month) | **30-day free trial** with full access to Starter/Pro ticketing and self-service features; unlimited free end-users |
-| **[Cherwell / Ivanti Neurons for ITSM](https://www.ivanti.com/)** | **No-code ESM platform acquired by Ivanti in 2021 (migrating to Ivanti Neurons for ITSM).** 11 built-in PINK-verified ITIL best practices for Incident Management, Asset Management, and more. **Concurrent licensing** at no extra cost for portal users. 175+ mergeable applications for ERP, MES, QMS, and CS integration. | Professional tier starts at **~$55 - $95/analyst/month** (billed annually under Ivanti enterprise contract) | **Custom sales-led PoC sandbox** (no self-serve public trial; Cherwell EOL December 2026, succeeded by Ivanti Neurons); unlimited self-service portal requesters |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[ITSM (heidsoft)](https://github.com/heidsoft/itsm)** | [![Stars](https://img.shields.io/github/stars/heidsoft/itsm?style=social&color=white)](https://github.com/heidsoft/itsm/stargazers) | **The most complete open-source ESM platform covering ITIL processes with AI-native architecture.** Apache-2.0. **Covers tickets, incidents, problems, changes, releases, service requests, service catalogs, knowledge, SLA, CMDB, and BPMN orchestration** [citation:11]. **AI is embedded into triage, summarization, knowledge retrieval, workflow recommendations, audit trails, and controlled tool execution**—not bolted on [citation:11]. **RBAC, tenant isolation, and MSP foundations** for multi-tenant service delivery. Connectors for Feishu, WeCom, DingTalk, and Webhook. Docker Compose deployment. **Status: v1.1 hardening phase**—validate security, backup, SSO, and monitoring before production [citation:11]. **Best for organizations wanting a ServiceNow-class open-source alternative** with modern Go/Next.js stack and AI-native design. |
-| **[OTRS (Znuny)](https://github.com/znuny/Znuny)** | [![Stars](https://img.shields.io/github/stars/znuny/Znuny?style=social&color=white)](https://github.com/znuny/Znuny/stargazers) | **The battle-tested open-source ticket management standard (LTS fork of OTRS Community Edition).** GPL-3.0. **Audit-proof ticketing**—communications are unchangeable, all modifications documented with who/what/when [from prior research]. **SAML authentication** added in v7.3.1. **Best for IT service management and regulated environments** requiring immutable audit trails. Mature but focused on IT rather than full cross-department ESM. |
-| **[OTRS (OTOBO)](https://github.com/rotheross/otobo)** | [![Stars](https://img.shields.io/github/stars/rotheross/otobo?style=social&color=white)](https://github.com/rotheross/otobo/stargazers) | **Open-source ticketing and ITSM system forked from OTRS.** **ITSM add-on packages are free to download**—CMDB, service catalog, and process management included [from prior research]. **Production servers need 8–16 GB RAM**. Vendor support from €3,900/year. **Best for IT teams wanting OTRS-style service desk without licence fees** and with optional commercial support. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** | [![Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers) | **Modern open-source customer service platform built on Frappe framework.** SLAs with business hours, auto-assignment by priority/type/team/workload, **unlimited agents with no seat fees**, Google/Microsoft/OIDC sign-in, and customer sync with ERPNext [from prior research]. **Best for organizations already on Frappe/ERPNext** wanting service management with ERP integration. |
-| **[FreeScout](https://github.com/freescout-help-desk/freescout)** | [![Stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers) | **Lightweight open-source shared inbox with no user/ticket limits.** PHP/Laravel, runs on 1–2 GB RAM. **SLA management is a paid module** [from prior research]. **Best for small teams** wanting basic ticketing without per-agent fees, not full ESM. |
-
-**Frameworks for building custom systems**: Choose **ITSM (heidsoft)** for the most complete open-source ESM foundation with ITIL processes, CMDB, BPMN, and AI-native design [citation:11]. For organizations needing audit-proof IT ticketing specifically, **Znuny** provides the mature OTRS standard. **No open-source project matches ServiceNow or Jira Service Management for cross-department service catalogs with AI orchestration**—expect to assemble components or accept narrower scope.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- ESM platforms handle employee PII, service requests, and potentially sensitive departmental data; enforce role-based access, data segregation between business units, and compliance with applicable data protection regulations.
-- **Enterprise ESM pricing is quote-only and scales per-agent.** **ServiceNow** is the enterprise benchmark with 85%+ Fortune 500 penetration [citation:2], but pricing is opaque. **Jira Service Management** offers a genuine free tier (3 agents) and is the most accessible enterprise ESM for Atlassian shops [citation:3]. **Freshservice** provides segmented workspaces for multi-department isolation without separate instances [citation:12]. **SysAid** emphasizes zero-trust data segregation with department-specific AI guardrails [citation:7]. **TOPdesk** claims fast time-to-value—3 weeks to 3 months for go-live [citation:9]. **Open-source ESM is genuinely emerging but not yet enterprise-ready**: **ITSM (heidsoft)** is the most ambitious with AI-native design and full ITIL coverage, but is still in **v1.1 hardening phase** [citation:11]. **Znuny/OTOBO** provide mature IT ticketing but not cross-department ESM. **Validate whether you need full ESM (ServiceNow, JSM, Freshservice) or IT-focused ticketing (Znuny, OTOBO)** before committing.
+</div>
 
 ---
 
-**Made for IT service managers, platform teams, and organizations extending service management beyond IT.**  
-Let's make enterprise service management more open, cross-departmental, and employee-centric.
+## 🧭 Table of Contents
+- [📌 Overview](#-overview)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 How to Choose Between SaaS and Open Source](#-how-to-choose-between-saas-and-open-source)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📌 Overview
+
+**Enterprise Service Management (ESM)** extends proven IT Service Management (ITSM and ITIL 4) principles beyond IT to business teams—including Human Resources (HR), Finance, Facilities, Legal, Procurement, and Operations. By centralizing request catalogs, incident routing, SLA tracking, and multi-department service automation into a unified digital workspace, ESM breaks down departmental silos and elevates employee experience.
+
+This repository tracks the leading **enterprise SaaS platforms** and production-ready **open-source alternatives** for organizations evaluating ITIL-aligned service desks, self-hosted CMDBs, and conversational AI orchestration.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Enterprise Service Management (ESM)** and **IT Service Management (ITSM)** combined software market is estimated at **~$14.5 Billion to $16.8 Billion (2025–2026)** and is projected to surpass **$35 Billion to $50 Billion by the early 2030s** at an estimated CAGR of 13–16%. 
+
+The enterprise tier is **highly concentrated and dominated by an oligopolistic group of platform giants**—led overwhelmingly by ServiceNow along with Atlassian and BMC—which command the vast majority of Fortune 500 contracts and multi-department shared service deployments. Concurrently, the mid-market and self-hosted ecosystem exhibits **moderate fragmentation**, where agile AI-first SaaS disruptors (Freshservice, SysAid, HaloITSM) and mature open-source foundations (GLPI, Snipe-IT, Zammad, Znuny) compete vigorously on data sovereignty, rapid deployment, and total cost of ownership.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+*Below is a comparison of major enterprise SaaS ESM and ITSM platforms, sorted in descending order by company scale (market capitalization, valuation, or estimated annual revenue).*
+
+| Product | Description | Scale (Market Cap / Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ServiceNow](https://www.servicenow.com/)** | **The enterprise ESM benchmark.** Over 85% of Fortune 500 enterprises rely on ServiceNow. Enterprise Service Management extends ITSM workflows to HR, Finance, Legal, and Facilities with native generative AI, CMDB orchestration, and Flow automation. | **~$106 Billion Market Cap** (~$15.4B TTM Revenue) | Starts at **~$70 - $100/fulfiller/month** (Foundation tier; enterprise contract) | **Free Personal Developer Instance (PDI)**: 1 instance with full admin rights; hibernates after 10 days of inactivity, reclaimed if left inactive |
+| **[Jira Service Management](https://www.atlassian.com/software/jira/service-management)** | **The most accessible enterprise ESM for Atlassian ecosystems.** Seamlessly enables business teams (HR, Legal, Facilities) to build drag-and-drop service portals with delegated permissions, Assets CMDB, and Rovo AI agents. | **~$38 - $40 Billion Market Cap** (~$6.6B TTM Revenue) | **$0/month** (Free Plan); Standard starts at **$22.05/agent/month** (billed monthly) or **$20/agent/month** (billed annually) | **Free plan forever**: up to 3 agents, unlimited customers, 2 GB file storage; **7 to 14-day free trial** for Standard and Premium tiers |
+| **[Freshservice](https://www.freshworks.com/freshservice/business-teams/esm/)** | **AI-powered ESM with secure segmented workspaces.** Delivers multi-department service desks on a single instance with complete data segregation between HR, IT, and Finance. Powered by Freddy AI Agent for conversational ticketing. | **~$3.2 Billion Market Cap** (~$903M TTM Revenue) | Starter starts at **$19/agent/month** (billed annually) or **$29/agent/month** (billed monthly) | **14-day free trial** with full feature access (no credit card required); unlimited free end-users/requesters |
+| **[BMC Helix ESM](https://www.bmc.com/)** | **AI-powered automation across IT and enterprise lines of business.** Delivers pre-built workflows for HR Service Management, Workplace Facilities, Security Operations, and low-code Business Workflows backed by BMC HelixGPT. | **~$2.1 - $2.3 Billion Revenue** (KKR Private Equity portfolio) | Starts at **~$114 - $115/named agent/month** (3-seat minimum; annual enterprise agreement) | **30-day proof-of-concept / evaluation trial** via sales authorization; trial environment purged upon conclusion |
+| **[Cherwell / Ivanti Neurons for ITSM](https://www.ivanti.com/)** | **No-code ESM platform acquired by Ivanti in 2021 (migrating to Ivanti Neurons for ITSM).** Features 11 built-in PINK-verified ITIL best practices, concurrent licensing for portal users, and hyper-automation bots. | **~$2.0 Billion Valuation** (~$700M - $780M Revenue; Clearlake / TA Associates) | Professional tier starts at **~$55 - $95/analyst/month** (billed annually under Ivanti enterprise contract) | **Custom sales-led PoC sandbox** (no self-serve public trial; Cherwell EOL December 2026, succeeded by Ivanti Neurons); unlimited self-service portal requesters |
+| **[TOPdesk](https://www.topdesk.com/)** | **Ready-to-use ESM platform with rapid time-to-value.** Pragmatic ITIL-based shared service management across IT, Facilities, and HR. Works out of the box with customizable workflows without requiring software developers. | **~$180 - $200 Million Revenue** (CVC Growth Funds backing) | Essential edition starts at **$76/operator/month** (billed annually) | **30-day free trial** with full operator and self-service access (no credit card required); unlimited free end-users |
+| **[SysAid](https://www.sysaid.com/)** | **AI-first service management with zero-trust departmental segregation.** Gives IT, HR, Finance, and Legal private spaces with isolated knowledge bases, AI guardrails, and cross-team ticket passing. | **~$30 Million Funding** (~$20M Revenue; Israel Growth Partners) | Professional plan starts at **$89/agent/month** (billed annually) | **14-day free trial** with full platform capabilities (no credit card required); includes core AI Copilot features |
+| **[InvGate Service Management](https://invgate.com/)** | **Intuitive no-code ITSM with AI automation and smart SLA routing.** Features Virtual Service Agent across Slack/Teams, automated incident assignment, and visual service catalog design. | **~$35 Million Growth Round** (~$30M - $43M Revenue; Riverwood Capital) | Starter plan starts at **$1,499/year** (~$125/month for up to 5 agents, or ~$25/agent/month) | **30-day free trial** with full access to Starter/Pro ticketing and self-service features; unlimited free end-users |
+| **[TeamDynamix](https://www.teamdynamix.com/)** | **Convergence of ESM and Project Portfolio Management (PPM).** Optimized for mid-market organizations, public sector, and higher education needing cross-departmental collaboration and project prioritization. | **Acquired by Level Equity** (~$30 Million+ Revenue) | Starts at **~$400 - $450/technician/year** (~$33 - $38/technician/month; annual institutional agreement) | **Guided live demo and sales-scoped PoC sandbox** (no self-serve free trial); unlimited client/requester portal users |
+| **[HaloITSM](https://haloitsm.com/)** | **Unified, fast-moving service management platform.** Delivers all-inclusive ITIL modules, configuration management, asset tracking, and service catalogs with single-pane visibility across departments. | **Bootstrapped / High-Growth Mid-Market Scale** | Starts at **$99/agent/month** (1–24 agents, billed annually; all features included) | **30-day free trial** with full access to all ITIL modules and AI features (no credit card required); unlimited free end-users |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Open-source platforms provide critical benefits: full data sovereignty, zero per-seat licensing fees, on-premise air-gapped capability, and deep customization. Below is the curated list of top open-source service desk, asset management, and ITIL/ESM engines, sorted in descending order by GitHub stargazers count.*
+
+| Project | Star Badge | Description | Primary Stack | License |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | **Open-source customer and employee engagement suite.** Modern omni-channel shared inbox supporting live chat, email, WhatsApp, and API integrations. Excellent for cross-department request intake desks seeking a clean, Slack/Discord-like user experience. | Ruby on Rails, Vue.js | AGPL-3.0 |
+| **[Snipe-IT](https://github.com/snipe/snipe-it)** | [![Stars](https://img.shields.io/github/stars/snipe/snipe-it?style=social&color=white)](https://github.com/snipe/snipe-it/stargazers) | **The de facto open-source IT Asset Management (ITAM) and CMDB system.** Built specifically for enterprise asset tracking, hardware lifecycle, software licenses, accessories, and consumables. Integrates cleanly with help desks via REST API. | PHP, Laravel | AGPL-3.0 |
+| **[GLPI](https://github.com/glpi-project/glpi)** | [![Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) | **Comprehensive open-source ITSM, ESM, and financial asset management platform.** Features full ITIL service desk (incidents, problems, changes), CMDB, project management, software license administration, and multi-entity administration. | PHP | GPL-3.0 |
+| **[Zammad](https://github.com/zammad/zammad)** | [![Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers) | **Modern, web-based open-source ticketing and customer/employee service desk.** Built by the founder of OTRS. Includes real-time audit trails, multi-channel intake (Email, Chat, SMS, Web), SLA management, LDAP/SSO, and customizable request fields. | Ruby on Rails, PostgreSQL | AGPL-3.0 |
+| **[FreeScout](https://github.com/freescout-help-desk/freescout)** | [![Stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers) | **Super-lightweight open-source shared inbox and help desk.** Designed as a self-hosted alternative to Zendesk and Help Scout. Operates on 1–2 GB RAM with unlimited users, tickets, and multi-mailbox support. Modular ecosystem for custom business needs. | PHP, Laravel | AGPL-3.0 |
+| **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** | [![Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers) | **Modern open-source service desk built on the Frappe framework and ERPNext.** Features SLA tracking with operational hours, automated round-robin routing, unlimited agents without seat fees, OAuth/OIDC, and tight integration with ERPNext records. | Python, Vue.js, Frappe | AGPL-3.0 |
+| **[Combodo iTop](https://github.com/combodo/itop)** | [![Stars](https://img.shields.io/github/stars/combodo/itop?style=social&color=white)](https://github.com/combodo/itop/stargazers) | **Open-source ITIL-compliant Service Management and Configuration Management Database (CMDB).** Built to handle complex IT infrastructures, service catalog mapping, incident/change impact analysis, and customer contract management. | PHP, MySQL | AGPL-3.0 |
+| **[Znuny (OTRS Community Edition)](https://github.com/znuny/Znuny)** | [![Stars](https://img.shields.io/github/stars/znuny/Znuny?style=social&color=white)](https://github.com/znuny/Znuny/stargazers) | **Battle-tested LTS fork of OTRS Community Edition.** Known for immutable, audit-proof ticket history and enterprise-grade SLA governance. Highly proven in regulated public sector, banking, and telecom deployments requiring strict compliance. | Perl, JavaScript | GPL-3.0 |
+| **[OTOBO](https://github.com/rotheross/otobo)** | [![Stars](https://img.shields.io/github/stars/rotheross/otobo?style=social&color=white)](https://github.com/rotheross/otobo/stargazers) | **Modern open-source ITSM portal forked from OTRS with enhanced UX.** Offers free downloadable ITSM packages including CMDB, visual process management, service catalogs, and customer portals with optional commercial enterprise support. | Perl, JavaScript | GNU GPL |
+| **[ITSM (heidsoft)](https://github.com/heidsoft/itsm)** | [![Stars](https://img.shields.io/github/stars/heidsoft/itsm?style=social&color=white)](https://github.com/heidsoft/itsm/stargazers) | **AI-native open-source ESM platform with modern full-stack architecture.** Covers ITIL service requests, incident/change management, CMDB, and BPMN process orchestration. AI embedded into triage, knowledge retrieval, and automated tool execution. | Go, Next.js, Docker | Apache-2.0 |
+
+---
+
+## 💡 How to Choose Between SaaS and Open Source
+
+```mermaid
+flowchart TD
+    A["Evaluate Enterprise Needs"] --> B{"Data Sovereignty or Strict Air-Gap?"}
+    B -- "Yes" --> C["Open-Source / Self-Hosted Foundation"]
+    C --> C1["Full ITIL + CMDB: GLPI or Combodo iTop"]
+    C --> C2["Modern Ticketing: Zammad or Frappe Helpdesk"]
+    C --> C3["AI-Native / BPMN: ITSM (heidsoft)"]
+    B -- "No" --> D{"Organization Size & Ecosystem"}
+    D -- "Fortune 500 / Heavy Enterprise" --> E["ServiceNow or BMC Helix"]
+    D -- "Atlassian / Agile Stack" --> F["Jira Service Management"]
+    D -- "Mid-Market / Fast Time-to-Value" --> G["Freshservice, TOPdesk, or HaloITSM"]
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this ecosystem up-to-date by submitting pull requests:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/add-new-esm-tool`).
+3. 📝 Update `README.md` following the existing tabular structure, ensuring specific starting prices and exact trial/free-tier limits are researched and verified.
+4. 💾 Commit your changes (`git commit -m "Add [Tool Name] with pricing and trial limits"`).
+5. 🚀 Push to your branch and open a Pull Request.
+
+Please review [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for curated awesome list guidelines.
+
+---
+
+## 💖 Support
+
+If you find this curated Enterprise Service Management repository valuable, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it!
+- 🍴 **Fork and share** it with your fellow IT leaders, DevOps engineers, and platform teams.
+- ☕ **Sponsor / Buy me a coffee** on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to help sustain ongoing research and maintenance.
+
+Thank you for your generous support! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Enterprise-Service-Management-ESM&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Enterprise-Service-Management-ESM&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an independent, community-curated repository and is not affiliated with or endorsed by ServiceNow, Atlassian, Freshworks, BMC, or any mentioned vendor.
+- Product specifications, pricing tiers, and trial policies change periodically; verify current quotes directly on the vendors' official websites before commercial commitment.
+- Enterprise Service Management systems process employee personally identifiable information (PII) and sensitive cross-department data; ensure appropriate role-based access control (RBAC), multi-tenant segregation, and compliance with GDPR/HIPAA standards.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for IT leaders, service desk administrators, and enterprise platform architects extending service management beyond IT.</b>
+</p>
