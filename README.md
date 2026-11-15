@@ -74,7 +74,7 @@ The enterprise tier is **highly concentrated and dominated by an oligopolistic g
 
 *Open-source platforms provide critical benefits: full data sovereignty, zero per-seat licensing fees, on-premise air-gapped capability, and deep customization. Below is the curated list of top open-source service desk, asset management, and ITIL/ESM engines, sorted in descending order by GitHub stargazers count.*
 
-| Project | Star Badge | Description | Primary Stack | License |
+| Project | Stars_Badge | Description | Primary Stack | License |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | **Open-source customer and employee engagement suite.** Modern omni-channel shared inbox supporting live chat, email, WhatsApp, and API integrations. Excellent for cross-department request intake desks seeking a clean, Slack/Discord-like user experience. | Ruby on Rails, Vue.js | AGPL-3.0 |
 | **[Snipe-IT](https://github.com/snipe/snipe-it)** | [![Stars](https://img.shields.io/github/stars/snipe/snipe-it?style=social&color=white)](https://github.com/snipe/snipe-it/stargazers) | **The de facto open-source IT Asset Management (ITAM) and CMDB system.** Built specifically for enterprise asset tracking, hardware lifecycle, software licenses, accessories, and consumables. Integrates cleanly with help desks via REST API. | PHP, Laravel | AGPL-3.0 |
